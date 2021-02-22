@@ -14,4 +14,13 @@ fun main() {
 
     val func = higherOrderFunctions.operation()     //Invokes operation to get the result assigned to a variable.
     println(func(2))                            //Invokes func. The square function is actually executed.
+
+    println()
+
+    val lambdaFunctions = LambdaFunctions()
+
+    lambdaFunctions.printSomeLambdas("wyraz")
+
+    println()
+
 }
